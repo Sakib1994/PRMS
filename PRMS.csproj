@@ -50,7 +50,20 @@
     <Reference Include="EPPlus">
       <HintPath>..\packages\EPPlus.4.1.1\lib\net40\EPPlus.dll</HintPath>
     </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker">
+      <HintPath>packages\itextsharp.xmlworker.5.5.13\lib\itextsharp.xmlworker.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>packages\itextsharp.xtra.5.5.13\lib\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Build.Framework" />
+    <Reference Include="Microsoft.Build.Tasks.v4.0" />
+    <Reference Include="Microsoft.Build.Utilities.v4.0" />
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Web.XmlTransform">
       <HintPath>packages\Microsoft.Web.Xdt.2.1.1\lib\net40\Microsoft.Web.XmlTransform.dll</HintPath>
     </Reference>
@@ -62,8 +75,15 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>packages\NuGet.Core.2.14.0\lib\net40-Client\NuGet.Core.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RazorEngine">
+      <HintPath>packages\RazorEngine.3.10.0\lib\net45\RazorEngine.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Activities.Core.Presentation" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http.Formatting, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -137,6 +157,7 @@
       <Private>True</Private>
       <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.AspNet.Identity.Core">
@@ -191,41 +212,52 @@
     <Compile Include="Controllers\DepartmentController.cs" />
     <Compile Include="Controllers\EnrollmentController.cs" />
     <Compile Include="Controllers\FacultyController.cs" />
+    <Compile Include="Controllers\HistoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MarksController.cs" />
+    <Compile Include="Controllers\ReportController.cs" />
+    <Compile Include="Controllers\ResultController.cs" />
+    <Compile Include="Controllers\SessionsController.cs" />
     <Compile Include="Controllers\TeacherController.cs" />
-    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201801131330131_init.cs" />
-    <Compile Include="Migrations\201801131330131_init.Designer.cs">
-      <DependentUpon>201801131330131_init.cs</DependentUpon>
+    <Compile Include="Migrations\201801281828390_init.cs" />
+    <Compile Include="Migrations\201801281828390_init.Designer.cs">
+      <DependentUpon>201801281828390_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\Activity.cs" />
+    <Compile Include="Models\AdminActivity.cs" />
+    <Compile Include="Models\CourseResult.cs" />
+    <Compile Include="Models\CourseStatus.cs" />
+    <Compile Include="Models\ExcelWriter.cs" />
+    <Compile Include="Models\GradeSheetDataModel.cs" />
+    <Compile Include="Models\HTMLWorkerExtended.cs" />
+    <Compile Include="Models\Result.cs" />
+    <Compile Include="Models\TeacherActivity.cs" />
     <Compile Include="Models\Admin.cs" />
+    <Compile Include="Models\Messasges.cs" />
+    <Compile Include="Models\SqlConnectionGenerator.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\CreateDatabaseAndTable.cs" />
     <Compile Include="Models\CRUD.cs" />
-    <Compile Include="Models\CSE\CseDbContext.cs" />
-    <Compile Include="Models\CSE\CseEnrollment.cs" />
-    <Compile Include="Models\CSE\CurrentSemester.cs" />
     <Compile Include="Models\CurrentSemester.cs" />
     <Compile Include="Models\Department.cs" />
+    <Compile Include="Models\EnrolledStudent.cs" />
+    <Compile Include="Models\ExcelReader.cs" />
     <Compile Include="Models\Faculty.cs" />
     <Compile Include="Models\FacultyDepartmentInfo.cs" />
+    <Compile Include="Models\GetEnrollment.cs" />
     <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\CSE\JanCseEnrolment.cs" />
-    <Compile Include="Models\CSE\JuneCseEnrollment.cs" />
-    <Compile Include="Models\Login.cs" />
     <Compile Include="Models\Marks.cs" />
     <Compile Include="Models\ProjectDB.cs" />
     <Compile Include="Models\EncryptionDectryption.cs" />
     <Compile Include="Models\AllSession.cs" />
-    <Compile Include="Models\DynamicDictionary.cs" />
     <Compile Include="Models\StudentInfo.cs" />
     <Compile Include="Models\Teacher.cs" />
+    <Compile Include="Models\Utils.cs" />
+    <Compile Include="Models\Variables.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -1266,6 +1298,7 @@
     <Content Include="js\toastr\toastr.min.js" />
     <Content Include="js\traffic-chart.js" />
     <Content Include="js\traffic-chart.min.js" />
+    <Content Include="js\validation\recovery.js" />
     <Content Include="js\waypoint\waypoints.min.js" />
     <Content Include="js\x-editable\bootstrap-editable.js" />
     <Content Include="js\x-editable\bootstrap-editable.min.js" />
@@ -1678,7 +1711,7 @@
     <Content Include="Views\Admin\TeacherDetail.cshtml" />
     <Content Include="Views\Shared\_TeacherLayout.cshtml" />
     <Content Include="Views\Teacher\Index.cshtml" />
-    <Content Include="Views\Teacher\History.cshtml" />
+    <Content Include="Views\History\Index.cshtml" />
     <Content Include="Views\Teacher\ChangePassword.cshtml" />
     <Content Include="Views\Faculty\AddFaculty.cshtml" />
     <Content Include="Views\Faculty\ManageFaculty.cshtml" />
@@ -1687,23 +1720,32 @@
     <Content Include="Views\Department\AddDepartment.cshtml" />
     <Content Include="Views\Department\ManageDepartment.cshtml" />
     <Content Include="Views\Department\EditDepartments.cshtml" />
-    <Content Include="Views\Teacher\UploadMark.cshtml" />
-    <Content Include="Views\Teacher\ChangeMark.cshtml" />
+    <Content Include="Views\Marks\UploadMark.cshtml" />
+    <Content Include="Views\Marks\ChangeMark.cshtml" />
     <Content Include="Views\Course\AddCourse.cshtml" />
     <Content Include="Views\Course\EditCourse.cshtml" />
     <Content Include="Views\Course\ManageCourse.cshtml" />
-    <Content Include="Views\Teacher\ManageMarks.cshtml" />
+    <Content Include="Views\Marks\ManageMarks.cshtml" />
     <Content Include="Views\Admin\GetHistory.cshtml" />
-    <Content Include="Views\Teacher\ChangeExcelHistory.cshtml" />
+    <Content Include="Views\History\ChangeExcelHistory.cshtml" />
     <Content Include="Views\Enrollment\EditEnrollment.cshtml" />
     <Content Include="Views\Enrollment\Index.cshtml" />
     <Content Include="Views\Enrollment\ManageEnrollment.cshtml" />
     <Content Include="Views\Enrollment\UploadEnrollment.cshtml" />
-    <Content Include="Views\Test\Index.cshtml" />
+    <Content Include="Views\Sessions\AddSession.cshtml" />
+    <Content Include="Views\Sessions\ManageSession.cshtml" />
+    <Content Include="Views\Admin\ChangePassword.cshtml" />
+    <Content Include="Views\History\DetailsHistory.cshtml" />
+    <Content Include="Views\Marks\ApproveMarks.cshtml" />
+    <Content Include="Views\Marks\DetailsMarks.cshtml" />
+    <Content Include="Views\Result\Index.cshtml" />
+    <Content Include="Views\Result\ResultDetails.cshtml" />
+    <Content Include="Views\Report\GradeSheet.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\Marks\" />
     <Folder Include="App_Data\Stu_Info\" />
+    <Folder Include="Report\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -1711,10 +1753,11 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201801131330131_init.resx">
-      <DependentUpon>201801131330131_init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201801281828390_init.resx">
+      <DependentUpon>201801281828390_init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

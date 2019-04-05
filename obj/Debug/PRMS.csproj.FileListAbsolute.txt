@@ -80,8 +80,6 @@ C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\Microsoft.Web.Infra
 C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.dll
 C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.pdb
 C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.csprojResolveAssemblyReference.cache
-C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.cseinit.resources
-C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.csproj.GenerateResource.Cache
 F:\Result.pstu\Ashik'\PRMS\bin\PRMS.dll.config
 F:\Result.pstu\Ashik'\PRMS\bin\PRMS.dll
 F:\Result.pstu\Ashik'\PRMS\bin\PRMS.pdb
@@ -113,3 +111,150 @@ F:\Result.pstu\Ashik'\PRMS\obj\Debug\PRMS.pdb
 F:\Result.pstu\Ashik'\PRMS\obj\Debug\PRMS.csprojResolveAssemblyReference.cache
 F:\Result.pstu\Ashik'\PRMS\obj\Debug\PRMS.Migrations.init.resources
 F:\Result.pstu\Ashik'\PRMS\obj\Debug\PRMS.csproj.GenerateResource.Cache
+F:\Result.pstu\Ashik'\PRMS\obj\Debug\PRMS.Migrations.init1.resources
+F:\Result.pstu\Ashik'\PRMS\obj\Debug\PRMS.Migrations.init2.resources
+F:\Result.pstu\Ashik'\PRMS\obj\Debug\PRMS.Migrations.init3.resources
+F:\Result.pstu\Ashik'\PRMS\obj\Debug\PRMS.Migrations.init4.resources
+F:\Result.pstu\Ashik'\PRMS\obj\Debug\PRMS.Migrations.init5.resources
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\Microsoft.Web.XmlTransform.dll
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\NuGet.Core.dll
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\System.Web.Helpers.dll
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\System.Web.Mvc.dll
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\System.Web.Razor.dll
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\System.Web.WebPages.dll
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\System.Web.Helpers.xml
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\System.Web.Mvc.xml
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\System.Web.Razor.xml
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\System.Web.WebPages.xml
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.init.resources
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.csproj.GenerateResource.Cache
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.init1.resources
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.init2.resources
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.init3.resources
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.init4.resources
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.init5.resources
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.init6.resources
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.init7.resources
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.init8.resources
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.init9.resources
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.init10.resources
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.init11.resources
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.init12.resources
+C:\Users\Arhan Ashik\Desktop\Visual studio projects\PRMS\obj\Debug\PRMS.Migrations.init13.resources
+F:\Result.pstu\New\PRMS\bin\PRMS.dll.config
+F:\Result.pstu\New\PRMS\bin\PRMS.dll
+F:\Result.pstu\New\PRMS\bin\PRMS.pdb
+F:\Result.pstu\New\PRMS\bin\Microsoft.Web.Infrastructure.dll
+F:\Result.pstu\New\PRMS\bin\Microsoft.Web.XmlTransform.dll
+F:\Result.pstu\New\PRMS\bin\Newtonsoft.Json.dll
+F:\Result.pstu\New\PRMS\bin\NuGet.Core.dll
+F:\Result.pstu\New\PRMS\bin\System.Net.Http.Formatting.dll
+F:\Result.pstu\New\PRMS\bin\System.Web.Helpers.dll
+F:\Result.pstu\New\PRMS\bin\System.Web.Http.dll
+F:\Result.pstu\New\PRMS\bin\System.Web.Http.WebHost.dll
+F:\Result.pstu\New\PRMS\bin\System.Web.Mvc.dll
+F:\Result.pstu\New\PRMS\bin\System.Web.Razor.dll
+F:\Result.pstu\New\PRMS\bin\System.Web.WebPages.Deployment.dll
+F:\Result.pstu\New\PRMS\bin\System.Web.WebPages.dll
+F:\Result.pstu\New\PRMS\bin\System.Web.WebPages.Razor.dll
+F:\Result.pstu\New\PRMS\bin\System.Net.Http.Formatting.xml
+F:\Result.pstu\New\PRMS\bin\System.Web.Helpers.xml
+F:\Result.pstu\New\PRMS\bin\System.Web.Http.xml
+F:\Result.pstu\New\PRMS\bin\System.Web.Http.WebHost.xml
+F:\Result.pstu\New\PRMS\bin\System.Web.Mvc.xml
+F:\Result.pstu\New\PRMS\bin\System.Web.Razor.xml
+F:\Result.pstu\New\PRMS\bin\System.Web.WebPages.xml
+F:\Result.pstu\New\PRMS\bin\System.Web.WebPages.Deployment.xml
+F:\Result.pstu\New\PRMS\bin\System.Web.WebPages.Razor.xml
+F:\Result.pstu\New\PRMS\bin\Microsoft.Web.Infrastructure.xml
+F:\Result.pstu\New\PRMS\obj\Debug\PRMS.Migrations.init.resources
+F:\Result.pstu\New\PRMS\obj\Debug\PRMS.csproj.GenerateResource.Cache
+F:\Result.pstu\New\PRMS\obj\Debug\PRMS.dll
+F:\Result.pstu\New\PRMS\obj\Debug\PRMS.pdb
+F:\Result.pstu\New\PRMS\obj\Debug\PRMS.csprojResolveAssemblyReference.cache
+F:\Result.pstu\New\PRMS\obj\Debug\RdlCompile.cache
+F:\Result.pstu\New\PRMS\obj\Debug\RdlCompile.compiled
+F:\Result.pstu\New\PRMS\bin\itextsharp.dll
+F:\Result.pstu\New\PRMS\bin\itextsharp.xml
+F:\Result.pstu\New\PRMS\bin\itextsharp.xmlworker.dll
+F:\Result.pstu\New\PRMS\bin\itextsharp.xtra.dll
+F:\Result.pstu\New\PRMS\bin\RazorEngine.dll
+F:\Result.pstu\New\PRMS\bin\RazorEngine.xml
+F:\PRMS\bin\PRMS.dll.config
+F:\PRMS\bin\PRMS.dll
+F:\PRMS\bin\PRMS.pdb
+F:\PRMS\bin\itextsharp.dll
+F:\PRMS\bin\itextsharp.xmlworker.dll
+F:\PRMS\bin\itextsharp.xtra.dll
+F:\PRMS\bin\Microsoft.Web.Infrastructure.dll
+F:\PRMS\bin\Microsoft.Web.XmlTransform.dll
+F:\PRMS\bin\Newtonsoft.Json.dll
+F:\PRMS\bin\NuGet.Core.dll
+F:\PRMS\bin\RazorEngine.dll
+F:\PRMS\bin\System.Net.Http.Formatting.dll
+F:\PRMS\bin\System.Web.Helpers.dll
+F:\PRMS\bin\System.Web.Http.dll
+F:\PRMS\bin\System.Web.Http.WebHost.dll
+F:\PRMS\bin\System.Web.Mvc.dll
+F:\PRMS\bin\System.Web.Razor.dll
+F:\PRMS\bin\System.Web.WebPages.Deployment.dll
+F:\PRMS\bin\System.Web.WebPages.dll
+F:\PRMS\bin\System.Web.WebPages.Razor.dll
+F:\PRMS\bin\itextsharp.xml
+F:\PRMS\bin\RazorEngine.xml
+F:\PRMS\bin\System.Net.Http.Formatting.xml
+F:\PRMS\bin\System.Web.Helpers.xml
+F:\PRMS\bin\System.Web.Http.xml
+F:\PRMS\bin\System.Web.Http.WebHost.xml
+F:\PRMS\bin\System.Web.Mvc.xml
+F:\PRMS\bin\System.Web.Razor.xml
+F:\PRMS\bin\System.Web.WebPages.xml
+F:\PRMS\bin\System.Web.WebPages.Deployment.xml
+F:\PRMS\bin\System.Web.WebPages.Razor.xml
+F:\PRMS\bin\Microsoft.Web.Infrastructure.xml
+F:\PRMS\obj\Debug\PRMS.csprojResolveAssemblyReference.cache
+F:\PRMS\obj\Debug\PRMS.Migrations.init.resources
+F:\PRMS\obj\Debug\PRMS.csproj.GenerateResource.Cache
+F:\PRMS\obj\Debug\PRMS.dll
+F:\PRMS\obj\Debug\PRMS.pdb
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\PRMS.dll.config
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\PRMS.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\PRMS.pdb
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\itextsharp.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\itextsharp.xmlworker.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\itextsharp.xtra.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\Microsoft.Web.Infrastructure.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\Microsoft.Web.XmlTransform.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\Newtonsoft.Json.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\NuGet.Core.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\RazorEngine.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Net.Http.Formatting.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.Helpers.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.Http.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.Http.WebHost.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.Mvc.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.Razor.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.WebPages.Deployment.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.WebPages.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.WebPages.Razor.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\itextsharp.xml
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\RazorEngine.xml
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Net.Http.Formatting.xml
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.Helpers.xml
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.Http.xml
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.Http.WebHost.xml
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.Mvc.xml
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.Razor.xml
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.WebPages.xml
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.WebPages.Deployment.xml
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\System.Web.WebPages.Razor.xml
+E:\PSTU RESULT MANAGEMENT\PRMS\bin\Microsoft.Web.Infrastructure.xml
+E:\PSTU RESULT MANAGEMENT\PRMS\obj\Debug\PRMS.csprojResolveAssemblyReference.cache
+E:\PSTU RESULT MANAGEMENT\PRMS\obj\Debug\PRMS.Migrations.init.resources
+E:\PSTU RESULT MANAGEMENT\PRMS\obj\Debug\PRMS.csproj.GenerateResource.Cache
+E:\PSTU RESULT MANAGEMENT\PRMS\obj\Debug\PRMS.dll
+E:\PSTU RESULT MANAGEMENT\PRMS\obj\Debug\PRMS.pdb
